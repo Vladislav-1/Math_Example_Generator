@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(180, 20, 20, 1);
+  font-size: 18px;
+}
+
+.header {
+  width: 100vw;
+  height: 10vh;
+  background: rgba(255, 100, 100, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.main span {
+  margin: 0px 10px;
+}
+
+.main table tr td {
+  /* background: rgba(255, 255, 0, 0.2); */
+  width: 40px;
+  height: 20px;
+}
+
+.total {
+  width: 70px;
+  height: 30px;
+  padding-left: 7px;
+  font-size: 18px;
+  color: rgb(180, 20, 20, 1);
+  text-align: center;
+}
+
+.contrTotal1,
+.contrTotal2,
+.contrTotal3,
+.contrTotal4,
+.contrTotal5 {
+  width: 250px;
+  padding: 3px 7px;
+  text-align: center;
+}
+
+.exampleReload {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  gap: 10px;
+}
+
+.exampleReload__button {
+  padding: 4px 8px;
+  background-color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 0, 0);
+  border-radius: 4px;
+}
+
+.exampleReload__button:hover {
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  color: rgb(255, 0, 0);
+}
+
+.exampleReload__buttonnControl {
+  padding: 3px 7px;
+}
+
+.exampleReload__buttonnControl:hover {
+  cursor: pointer;
+}
+
+.answers {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.resultEstimation {
+  padding: 0px 20%;
+}
