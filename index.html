@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru-Ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Генератор математических примеров</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section class="header">
+      <h1 class="header__title">Примеры по математике</h1>
+    </section>
+    <section class="main">
+      <table>
+        <tr>
+          <td style="text-align: right"><span class="element1"></span></td>
+          <td style="text-align: center"><span class="operator1"></span></td>
+          <td style="text-align: right"><span class="element2"></span></td>
+          <td style="text-align: center">=</td>
+          <td><input class="total" type="number" id="result_1" /></td>
+          <td class="contrTotal1"></td>
+        </tr>
+        <tr>
+          <td style="text-align: right"><span class="element3"></span></td>
+          <td style="text-align: center"><span class="operator2"></span></td>
+          <td style="text-align: right"><span class="element4"></span></td>
+          <td style="text-align: center">=</td>
+          <td><input class="total" type="number" id="result_2" /></td>
+          <td class="contrTotal2"></td>
+        </tr>
+        <tr>
+          <td style="text-align: right"><span class="element5"></span></td>
+          <td style="text-align: center"><span class="operator3"></span></td>
+          <td style="text-align: right"><span class="element6"></span></td>
+          <td style="text-align: center">=</td>
+          <td><input class="total" type="number" id="result_3" /></td>
+          <td class="contrTotal3"></td>
+        </tr>
+        <tr>
+          <td style="text-align: right"><span class="element7"></span></td>
+          <td style="text-align: center"><span class="operator4"></span></td>
+          <td style="text-align: right"><span class="element8"></span></td>
+          <td style="text-align: center">=</td>
+          <td><input class="total" type="number" id="result_4" /></td>
+          <td class="contrTotal4"></td>
+        </tr>
+        <tr>
+          <td style="text-align: right"><span class="element9"></span></td>
+          <td style="text-align: center"><span class="operator5"></span></td>
+          <td style="text-align: right"><span class="element10"></span></td>
+          <td style="text-align: center">=</td>
+          <td><input class="total" type="number" id="result_5" /></td>
+          <td class="contrTotal5"></td>
+        </tr>
+      </table>
+    </section>
+    <section class="exampleReload">
+      <button class="exampleReload__button" onclick="window.location.reload()">
+        Обновить
+      </button>
+      <button class="exampleReload__buttonnControl" onclick="returnResult()">
+        Проверить
+      </button>
+    </section>
+    <section class="answers">
+      <table>
+        <tr>
+          <td class="ans1"></td>
+          <td class="answers1" style="text-align: right; width: 30px"></td>
+        </tr>
+        <tr>
+          <td class="ans2"></td>
+          <td class="answers2" style="text-align: right; width: 30px"></td>
+        </tr>
+        <tr>
+          <td class="ans3"></td>
+          <td class="answers3" style="text-align: right; width: 30px"></td>
+        </tr>
+        <tr>
+          <td class="ans4"></td>
+          <td class="answers4" style="text-align: right; width: 30px"></td>
+        </tr>
+        <tr>
+          <td class="ans5"></td>
+          <td class="answers5" style="text-align: right; width: 30px"></td>
+        </tr>
+        <tr>
+          <td style="height: 30px"></td>
+        </tr>
+      </table>
+
+      <div class="resultEstimation"></div>
+    </section>
+    <script src="js/script.js"></script>
+  </body>
+</html>
